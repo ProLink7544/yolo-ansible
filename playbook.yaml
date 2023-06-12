@@ -57,3 +57,7 @@
       community.docker.docker_image:
         name: "{{ backend_image }}"
         source: pull
+        - name: Create app folder
+      file:
+        path: "{{ app_folder }}"
+        state: directory
