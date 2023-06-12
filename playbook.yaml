@@ -4,3 +4,8 @@
     client_image: amwau/clientfolder:v2.0.2
     backend_image: amwau/backendfolder:v2.0.2
     app_folder: /opt/yolo
+    tasks:
+    - name: Update the cache
+      apt:
+        update_cache: yes
+        upgrade: yes
