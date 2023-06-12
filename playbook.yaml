@@ -48,3 +48,12 @@
     - name: Install the Docker module for Python, required by ansible
       pip:
         name: docker
+        - name: Pull the client image
+      community.docker.docker_image:
+        name: "{{ client_image }}"
+        source: pull
+
+    - name: Pull the backend image
+      community.docker.docker_image:
+        name: "{{ backend_image }}"
+        source: pull
