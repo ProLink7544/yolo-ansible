@@ -1,8 +1,8 @@
 - name: Install Docker
   hosts: all
   vars:
-    client_image: amwau/clientfolder:v2.0.2
-    backend_image: amwau/backendfolder:v2.0.2
+    client_image: protus/client:1.0.0
+    backend_image: protus/backend:1.0.0
     app_folder: /opt/yolo
     tasks:
     - name: Update the cache

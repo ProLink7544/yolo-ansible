@@ -1,9 +1,9 @@
 variable "docker_images" {
   type        = list(string)
-  description = "This are the images in my environment"
+  description = "This are the images available in my environment"
   default = [
-    "hawksdev/g2-yolo-client:1.0.0",
-    "hawksdev/g2-yolo-backend:1.0.0",
+    "protus/client:1.0.0",
+    "protus/backend:1.0.0",
   ]
 }
 

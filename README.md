@@ -5,6 +5,6 @@
 2. The environment is set up with Obuntu-20 as the base image
 
 3. The project implements variables and hosts
-4. The project runs in a GCP service (You will need an account with GCP)
+4. The project runs in a GCP service ( GCP account is highly recomended)
 
 5. Ensure to edit the project id to your preferred and set up your own SSH keys for validation
