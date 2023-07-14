@@ -1,10 +1,11 @@
 ##  Ansible and Terraform GCP Configuration Management Project
 
- 1. The goal is to set up and Ansible Playbook and Terraform file that provisions recources on GCP and invokes  the playbook to start the application.
+The goal is to set up and Ansible Playbook and Terraform file that provisions recources on GCP and invokes  the playbook to start the application.
 
-2. The environment is set up with Obuntu-20 as the base image
+The environment is set up with Obuntu-20 as the base image
 
-3. The project implements variables and hosts
-4. The project runs in a GCP service ( GCP account is highly recomended)
+The project implements variables and hosts
 
-5. Ensure to edit the project id to your preferred and set up your own SSH keys for validation
+The project runs in a GCP service ( GCP account is highly recomended)
+
+Ensure to edit the project id to your preferred and set up your own SSH keys for validation
